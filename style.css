@@ -10,6 +10,7 @@
     --puple: #7C3AED;
     --gray-400: #94A3B8;
     --gray-200: #e2e8fD;
+    --white: #FFF;
 }
 header{
     background-image: url(imagen/img_moba.png);
@@ -70,4 +71,23 @@ input-box div{
 }
 .login a:hover{
     text-decoration: underline;
+}
+.login button{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--puple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.login > p{
+    color: var(--gray-600);
+}
+.login > p a{
+    font-weight: 700;
+    font-size: 1rem;
 }
